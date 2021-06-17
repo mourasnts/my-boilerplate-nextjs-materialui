@@ -146,7 +146,7 @@ const WithAuthBase: React.FC = ({ children }) => {
         <Divider />
         <List>
           {['Minha Defensoria', 'Intranet'].map((text, index) => (
-            <ListItem button key={text}>
+            <ListItem button key={index}>
               <ListItemIcon>
                 <Airplay />
               </ListItemIcon>
